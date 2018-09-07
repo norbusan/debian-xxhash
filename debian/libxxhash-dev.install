@@ -1,0 +1,4 @@
+usr/lib/*/libxxhash.a
+usr/lib/*/libxxhash.so
+usr/include/xxhash.h
+doc/xxhash_spec.md usr/share/doc/libxxhash-dev

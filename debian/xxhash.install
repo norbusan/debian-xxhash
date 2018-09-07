@@ -1,0 +1,6 @@
+usr/bin/xxhsum
+usr/bin/xxh32sum
+usr/bin/xxh64sum
+usr/share/man/man1/xxhsum.1
+usr/share/man/man1/xxh32sum.1
+usr/share/man/man1/xxh64sum.1

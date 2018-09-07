@@ -1,0 +1,44 @@
+Source: xxhash
+Section: utils
+Priority: optional
+Maintainer: Norbert Preining <preining@debian.org>
+Build-Depends: debhelper (>= 11), dpkg-dev (>= 1.16.2)
+Standards-Version: 4.2.0
+Homepage: https://cyan4973.github.io/xxHash
+Vcs-Git: https://salsa.debian.org/preining/xxhash.git
+Vcs-Browser: https://salsa.debian.org/preining/xxhash
+
+Package: xxhash
+Architecture: any
+Depends: libxxhash0 (>= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: Extremely fast hash algorithm
+ xxHash is an Extremely fast Hash algorithm, running at RAM speed limits.
+ It successfully completes the SMHasher test suite which evaluates collision,
+ dispersion and randomness qualities of hash functions. Code is highly portable,
+ and hashes are identical on all platforms (little / big endian).
+
+Package: libxxhash0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: shared library for xxhash
+ xxHash is an Extremely fast Hash algorithm, running at RAM speed limits.
+ It successfully completes the SMHasher test suite which evaluates collision,
+ dispersion and randomness qualities of hash functions. Code is highly portable,
+ and hashes are identical on all platforms (little / big endian).
+ .
+ This package contains the shared library.
+
+Package: libxxhash-dev
+Architecture: any
+Section: libdevel
+Depends: libxxhash0 (= ${binary:Version}), ${misc:Depends}
+Multi-Arch: same
+Description: header files and a static library for libxxhash
+ xxHash is an Extremely fast Hash algorithm, running at RAM speed limits.
+ It successfully completes the SMHasher test suite which evaluates collision,
+ dispersion and randomness qualities of hash functions. Code is highly portable,
+ and hashes are identical on all platforms (little / big endian).
+ .
+ This package contains xxHash static library and header files.
