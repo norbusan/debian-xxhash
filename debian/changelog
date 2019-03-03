@@ -1,3 +1,9 @@
+xxhash (0.6.5-3) unstable; urgency=medium
+
+  * update VCS and email
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 03 Mar 2019 09:19:39 +0900
+
 xxhash (0.6.5-2) unstable; urgency=medium
 
   [ Matthias Klose ]
