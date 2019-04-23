@@ -1,4 +1,5 @@
 libxxhash.so.0 libxxhash0 #MINVER#
+ XXH128@Base 0.7.0
  XXH32@Base 0.6.5
  XXH32_canonicalFromHash@Base 0.6.5
  XXH32_copyState@Base 0.6.5
@@ -8,6 +9,10 @@ libxxhash.so.0 libxxhash0 #MINVER#
  XXH32_hashFromCanonical@Base 0.6.5
  XXH32_reset@Base 0.6.5
  XXH32_update@Base 0.6.5
+ XXH3_128bits@Base 0.7.0
+ XXH3_128bits_withSeed@Base 0.7.0
+ XXH3_64bits@Base 0.7.0
+ XXH3_64bits_withSeed@Base 0.7.0
  XXH64@Base 0.6.5
  XXH64_canonicalFromHash@Base 0.6.5
  XXH64_copyState@Base 0.6.5
