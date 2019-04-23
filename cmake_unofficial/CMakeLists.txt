@@ -20,6 +20,7 @@ mark_as_advanced(XXHASH_VERSION_MAJOR XXHASH_VERSION_MINOR XXHASH_VERSION_RELEAS
 
 option(BUILD_XXHSUM "Build the xxhsum binary" ON)
 option(BUILD_SHARED_LIBS "Build shared library" ON)
+option(BUILD_ENABLE_INLINE_API "add xxhash.c to includes for -DXXH_INLINE_ALL" ON)
 
 if("${CMAKE_VERSION}" VERSION_LESS "3.0")
   project(XXHASH C)
@@ -57,6 +58,9 @@ include_directories("${XXHASH_DIR}")
 
 # libxxhash
 add_library(xxhash "${XXHASH_DIR}/xxhash.c")
+if (BUILD_SHARED_LIBS)
+  target_compile_definitions(xxhash PUBLIC XXH_EXPORT)
+endif ()
 set_target_properties(xxhash PROPERTIES
   SOVERSION "${XXHASH_VERSION_STRING}"
   VERSION "${XXHASH_VERSION_STRING}")
@@ -95,6 +99,10 @@ if(NOT XXHASH_BUNDLED_MODE)
     ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}")
   install(FILES "${XXHASH_DIR}/xxhash.h"
     DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
+  if(BUILD_ENABLE_INLINE_API)
+    install(FILES "${XXHASH_DIR}/xxhash.c"
+      DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
+  endif()
   install(FILES "${XXHASH_DIR}/xxhsum.1"
     DESTINATION "${CMAKE_INSTALL_MANDIR}/man1")
 endif(NOT XXHASH_BUNDLED_MODE)
