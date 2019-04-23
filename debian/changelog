@@ -1,3 +1,9 @@
+xxhash (0.7.0-1) experimental; urgency=medium
+
+  * New upstream version 0.7.0
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 23 Apr 2019 20:07:58 +0900
+
 xxhash (0.6.5-3) unstable; urgency=medium
 
   * update VCS and email
