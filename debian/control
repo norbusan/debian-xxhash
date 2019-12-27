@@ -2,7 +2,7 @@ Source: xxhash
 Section: utils
 Priority: optional
 Maintainer: Norbert Preining <norbert@preining.info>
-Build-Depends: debhelper (>= 12~), dpkg-dev (>= 1.16.2)
+Build-Depends: debhelper-compat (= 12), dpkg-dev (>= 1.16.2)
 Standards-Version: 4.2.1
 Homepage: https://cyan4973.github.io/xxHash
 Vcs-Git: https://github.com/norbusan/debian-xxhash.git
