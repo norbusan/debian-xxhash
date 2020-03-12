@@ -9,8 +9,9 @@ xxhash (0.7.3-1) unstable; urgency=medium
 
   [ Norbert Preining ]
   * New upstream version 0.7.3
+  * Install new files (pkg-config, header, new tool xxh128sum plus man)
 
- -- Norbert Preining <norbert@preining.info>  Fri, 13 Mar 2020 03:21:31 +0900
+ -- Norbert Preining <norbert@preining.info>  Fri, 13 Mar 2020 03:32:28 +0900
 
 xxhash (0.7.2-1) unstable; urgency=medium
 
