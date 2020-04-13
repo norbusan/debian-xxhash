@@ -1,3 +1,10 @@
+xxhash (0.7.3-2) unstable; urgency=medium
+
+  [ Chris Lamb ]
+  * Make the build reproducible (Closes: #956583)
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 13 Apr 2020 19:00:33 +0900
+
 xxhash (0.7.3-1) unstable; urgency=medium
 
   [ Debian Janitor ]
