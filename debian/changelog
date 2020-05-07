@@ -1,3 +1,9 @@
+xxhash (0.7.3-3) UNRELEASED; urgency=medium
+
+  * Set upstream metadata fields: Bug-Submit.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Thu, 07 May 2020 05:48:47 +0000
+
 xxhash (0.7.3-2) unstable; urgency=medium
 
   [ Chris Lamb ]
