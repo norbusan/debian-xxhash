@@ -32,6 +32,7 @@ libxxhash.so.0 libxxhash0 #MINVER#
  XXH3_copyState@Base 0.7.1
  XXH3_createState@Base 0.7.1
  XXH3_freeState@Base 0.7.1
+ XXH3_generateSecret@Base 0.7.4
  XXH64@Base 0.6.5
  XXH64_canonicalFromHash@Base 0.6.5
  XXH64_copyState@Base 0.6.5

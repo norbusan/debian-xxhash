@@ -5,8 +5,9 @@ xxhash (0.7.4-1) unstable; urgency=medium
 
   [ Norbert Preining ]
   * New upstream version 0.7.4
+  * Update symbols file
 
- -- Norbert Preining <norbert@preining.info>  Tue, 30 Jun 2020 17:07:44 +0900
+ -- Norbert Preining <norbert@preining.info>  Tue, 30 Jun 2020 17:10:59 +0900
 
 xxhash (0.7.3-2) unstable; urgency=medium
 
