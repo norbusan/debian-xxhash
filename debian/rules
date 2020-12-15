@@ -4,7 +4,7 @@
 
 include /usr/share/dpkg/architecture.mk
 
-ifeq ($(DEB_HOST_ARCH_CPU),$(filter $(DEB_HOST_ARCH),i386 amd64))
+ifneq (,$(filter $(DEB_HOST_ARCH_CPU),i386 amd64))
 	export DISPATCH=1
 endif
 
