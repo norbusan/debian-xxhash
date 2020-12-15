@@ -1,7 +1,5 @@
 usr/lib/*/libxxhash.a
 usr/lib/*/libxxhash.so
-usr/include/xxhash.h
-usr/include/xxh3.h
+usr/include/xxh*
 usr/lib/*/pkgconfig/libxxhash.pc
 doc/xxhash_spec.md usr/share/doc/libxxhash-dev
-xxh_x86dispatch.h /usr/include
