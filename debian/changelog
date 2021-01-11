@@ -1,11 +1,11 @@
-xxhash (0.8.0-2) UNRELEASED; urgency=medium
+xxhash (0.8.0-2) unstable; urgency=medium
 
   * Use hardware-accelerated XXH3 computation on x86 architecture, and
     install the hardware-accelerating header file. 
     Thanks to Julian Andres Klode. (Closes: #977345)
   * Cherry-pick upstream: Fix empty version in .pc file (Closes: #979758)
 
- -- Norbert Preining <norbert@preining.info>  Mon, 11 Jan 2021 21:56:55 +0900
+ -- Norbert Preining <norbert@preining.info>  Mon, 11 Jan 2021 21:57:57 +0900
 
 xxhash (0.8.0-1) unstable; urgency=medium
 
