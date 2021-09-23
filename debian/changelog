@@ -1,7 +1,14 @@
+xxhash (0.8.0-3) UNRELEASED; urgency=medium
+
+  * Trim trailing whitespace.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sun, 05 Sep 2021 08:02:06 -0000
+
 xxhash (0.8.0-2) unstable; urgency=medium
 
   * Use hardware-accelerated XXH3 computation on x86 architecture, and
-    install the hardware-accelerating header file. 
+    install the hardware-accelerating header file.
     Thanks to Julian Andres Klode. (Closes: #977345)
   * Cherry-pick upstream: Fix empty version in .pc file (Closes: #979758)
 
