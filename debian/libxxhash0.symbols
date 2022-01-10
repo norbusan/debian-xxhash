@@ -18,11 +18,13 @@ libxxhash.so.0 libxxhash0 #MINVER#
  (arch=any-i386 any-amd64)XXH3_128bits_dispatch@Base 0.8.0-2~
  XXH3_128bits_reset@Base 0.8.0
  XXH3_128bits_reset_withSecret@Base 0.8.0
+ XXH3_128bits_reset_withSecretandSeed@Base 0.8.1
  XXH3_128bits_reset_withSeed@Base 0.8.0
  XXH3_128bits_update@Base 0.8.0
  (arch=any-i386 any-amd64)XXH3_128bits_update_dispatch@Base 0.8.0-2~
  XXH3_128bits_withSecret@Base 0.8.0
  (arch=any-i386 any-amd64)XXH3_128bits_withSecret_dispatch@Base 0.8.0-2~
+ XXH3_128bits_withSecretandSeed@Base 0.8.1
  XXH3_128bits_withSeed@Base 0.8.0
  (arch=any-i386 any-amd64)XXH3_128bits_withSeed_dispatch@Base 0.8.0-2~
  XXH3_64bits@Base 0.7.0
@@ -30,17 +32,20 @@ libxxhash.so.0 libxxhash0 #MINVER#
  (arch=any-i386 any-amd64)XXH3_64bits_dispatch@Base 0.8.0-2~
  XXH3_64bits_reset@Base 0.7.1
  XXH3_64bits_reset_withSecret@Base 0.7.1
+ XXH3_64bits_reset_withSecretandSeed@Base 0.8.1
  XXH3_64bits_reset_withSeed@Base 0.7.1
  XXH3_64bits_update@Base 0.7.1
  (arch=any-i386 any-amd64)XXH3_64bits_update_dispatch@Base 0.8.0-2~
  XXH3_64bits_withSecret@Base 0.7.1
  (arch=any-i386 any-amd64)XXH3_64bits_withSecret_dispatch@Base 0.8.0-2~
+ XXH3_64bits_withSecretandSeed@Base 0.8.1
  XXH3_64bits_withSeed@Base 0.7.0
  (arch=any-i386 any-amd64)XXH3_64bits_withSeed_dispatch@Base 0.8.0-2~
  XXH3_copyState@Base 0.7.1
  XXH3_createState@Base 0.7.1
  XXH3_freeState@Base 0.7.1
  XXH3_generateSecret@Base 0.7.4
+ XXH3_generateSecret_fromSeed@Base 0.8.1
  XXH64@Base 0.6.5
  XXH64_canonicalFromHash@Base 0.6.5
  XXH64_copyState@Base 0.6.5
