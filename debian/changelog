@@ -1,3 +1,17 @@
+xxhash (0.8.1-1) UNRELEASED; urgency=medium
+
+  [ Norbert Preining ]
+  * bump symbol versions to ensure that now 0.7 version interfers (LP: #1934992)
+
+  [ Balint Reczey ]
+  * New upstream version 0.8.1 (Closes: #1003073)
+  * Drop upstream-b4dbf5fefc37b8a-fix-empty-version-in-pc-file patch.
+    It is included in the new upstream release
+  * Update symbols
+  * Rework shipping man pages
+
+ -- Balint Reczey <balint@balintreczey.hu>  Tue, 11 Jan 2022 10:18:40 +0100
+
 xxhash (0.8.0-2) unstable; urgency=medium
 
   * Use hardware-accelerated XXH3 computation on x86 architecture, and
